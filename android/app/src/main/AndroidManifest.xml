@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="myapplication"
         android:name="${applicationName}"
@@ -31,4 +32,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
